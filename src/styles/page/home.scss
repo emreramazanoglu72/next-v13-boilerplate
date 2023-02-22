@@ -1,0 +1,28 @@
+.home-page {
+    @apply container mx-auto my-10 dark:bg-slate-700 rounded dark:shadow-2xl p-2 dark:text-white;
+
+    .blog-title {
+        @apply font-bold text-4xl text-slate-800 dark:text-white;
+    }
+
+    .blog {
+        @apply grid grid-cols-3 gap-4 my-5;
+        &-card {
+            @apply bg-white dark:bg-slate-800 shadow-lg rounded max-w-[512px];
+            img {
+            }
+            .content {
+                @apply grid p-5;
+                .title {
+                    @apply text-lg font-bold;
+                }
+                .createBy {
+                    @apply text-gray-600 font-bold;
+                    span {
+                        @apply text-gray-300;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.header {
+    @apply shadow py-4 dark:bg-slate-700 dark:text-white;
+    &-content {
+        @apply mx-auto container flex justify-between items-center max-md:px-20;
+
+        .logo {
+            @apply uppercase text-slate-900 font-bold dark:text-white;
+        }
+        .menu {
+            ul {
+                @apply flex justify-between space-x-4 uppercase font-semibold hover:text-slate-600;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.blog-detail {
+    @apply container mx-auto my-10 dark:bg-slate-700 rounded dark:shadow-2xl p-2 dark:text-white;
+    .blog-image {
+        @apply w-full h-[500px];
+    }
+
+    .blog-title {
+        @apply font-bold text-4xl text-slate-800 dark:text-white;
+    }
+    .blog-description {
+        @apply font-bold text-base text-slate-600 dark:text-white;
+    }
+}
